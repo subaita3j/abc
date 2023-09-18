@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+--color: #333; 
+}
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+  }
+
+  .container {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/938/504/HD-wallpaper-the-uncanny-counter-with-jo-byeong-kyu-kim-sejeong-yoo-jung-sang-and-lee-sun-bin-official.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: 720;
+    font-size: 3rem;
+  }
+  
+  p {
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 1em 3.5em;
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: .875rem;
+  }
+
+  .other {
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+  }
+
+
+  .second {
+    background-image:url(https://photos.hancinema.net/photos/largephoto1680744.jpg);
+    background-attachment: fixed;
+    height: 1200px;
+    background-size: cover;
+  }
+ 
+  h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+  }
+  
+  .card > a {
+    margin-bottom: 2em;
+  }
+
+  .item {
+    display: flex;
+    max-width: 320px;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+    width: 90%;
+    height: 200px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: .3em;;
+  }
+
+  .img-first {
+    background-image: url(https://1739752386.rsc.cdn77.org/data/images/full/266597/the-uncanny-counter-stills.jpg);
+  }
+  
+  .img-second {
+    background-image: url(https://www.bollywoodhungama.com/wp-content/uploads/2022/09/Kim-Se-Jeong-in-talks-to-reprise-her-role-in-The-Uncanny-Counter-season-2-.jpg);
+  }
+  
+  .img-third {
+    background-image: url(https://i.mydramalist.com/60glbW_2f.jpg);
+  }
+  
+  .second {
+    flex-direction: row;
+    gap: 1.6em;
+  }
+  
+  .container:nth-child(3) {
+    background-image: url(https://assets.pikiran-rakyat.com/crop/105x27:969x603/x/photo/2023/09/02/2295705383.jpg);
+    background-attachment: fixed;
+    height: 1200px;
+    background-size: cover;
+  }
+
+
+  .container:nth-child(4) {
+    background-image: url(https://www.allkpop.com/upload/2023/06/content/182246/1687142774-cqmpev.jpg);
+    background-attachment: fixed;
+    height: 1200px;
+  }
+
